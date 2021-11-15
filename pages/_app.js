@@ -3,7 +3,7 @@ import customTheme from "../styles/customTheme";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChakraProvider them={customTheme}>
+    <ChakraProvider theme={customTheme}>
       <Component {...pageProps} />
     </ChakraProvider>
   );
